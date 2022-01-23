@@ -18,3 +18,6 @@ for ind, value in enumerate(user_word):
 # 5 >>> qwerty
 
 
+
+
+
