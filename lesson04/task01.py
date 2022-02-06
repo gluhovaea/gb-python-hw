@@ -14,6 +14,10 @@ def salary():
 
 print(f"заработная плата сотрудника = {salary()}")
 
+# для того чтобы увидеть как отрабатывается задание, нужно через правую кнопку мыши выбрать Modify Run Configuretion и ввести 3 параметра в строку Parameteres. 
+# Например, как у меня указано ниже - 40, 1700, 12000 или любые свои целочисленные варианты.
+
+
 # C:\Users\Ringo-nout-2\PycharmProjects\gb-python-hw\venv\Scripts\python.exe C:/Users/Ringo-nout-2/PycharmProjects/gb-python-hw/lesson04/task01.py 40 1700 12000
 # заработная плата сотрудника = 80000
 
