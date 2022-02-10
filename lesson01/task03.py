@@ -18,4 +18,4 @@ print(result)
 
 # Вариант 2
 summa = int(user_number) + int(user_number*2) + int(user_number*3)
-print(f"{user_number}+{user_number*2}+{user_number*3} = {summa} ")
+print(f"{user_number}+{user_number*2}+{user_number*3} = {summa}")

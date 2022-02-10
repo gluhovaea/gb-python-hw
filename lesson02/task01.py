@@ -9,6 +9,3 @@ my_list = [27, 32.5, "qwerty", True, 5, None]
 
 for item in my_list:
     print(type(item))
-
-
-
