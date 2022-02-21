@@ -57,13 +57,13 @@ class Suit(Clothes):
             self.__height = height
 
     def get_sum_of_cloth(self):
-        return 2 * self.__height + 0.3
+        return 2 * (self.__height / 100) + 0.3
 
 
 coat = Coat(48)
 print(f'Размер пальто: {coat.size}')
 print(f'Нужно ткани для пальто: {coat.get_sum_of_cloth()}')
-suit = Suit(-180)
+suit = Suit(180)
 print(f'Рост для костюма: {suit.height}')
 print(f'Нужно ткани для костюма: {suit.get_sum_of_cloth()}')
 
