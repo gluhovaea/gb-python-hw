@@ -60,10 +60,10 @@ class Suit(Clothes):
         return 2 * (self.__height / 100) + 0.3
 
 
-coat = Coat(48)
+coat = Coat(46)
 print(f'Размер пальто: {coat.size}')
-print(f'Нужно ткани для пальто: {coat.get_sum_of_cloth()}')
-suit = Suit(180)
+print(f'Нужно ткани для пальто: {coat.get_sum_of_cloth():.1f}')
+suit = Suit(168)
 print(f'Рост для костюма: {suit.height}')
-print(f'Нужно ткани для костюма: {suit.get_sum_of_cloth()}')
-
+print(f'Нужно ткани для костюма: {suit.get_sum_of_cloth():.1f}')
+print(f'Суммарный расход ткани - {(coat.get_sum_of_cloth() + suit.get_sum_of_cloth()):.1f}')
